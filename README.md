@@ -1,4 +1,4 @@
-# Elsa-API-Samples
+# Elsa API Samples
 This repo contains information on how to use Elsa APIs.
 
 The Elsa API is designed to help language learner improve their pronounciation and vocabulary. It accepts an audio file and a text string, along with a result that helps establish the quality of the audio file. 
