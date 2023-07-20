@@ -1,8 +1,12 @@
-# Elsa API Samples
-This repo contains information on how to use Elsa APIs.
 
-The Elsa API is designed to help language learner improve their pronounciation and vocabulary. It accepts an audio file and a text string, along with a result that helps establish the quality of the audio file. 
+## This client implements ELSA websocket protocol to stream audio to the scripted API.
 
-The SpeechAce API is designed specifically to help language learners improve their pronunciation. It accepts an audio file and a text string and provides a variety of metrics that help establish the quality of the speech in the audio file. Key metrics include:
+````bash
+python3 streaming_scripted_client.py --token <CLIENT_TOKEN> --sentence "pizza party" --audio_path pizza_party.wav
+````
 
-Detailed documentation on the API is available at https://api-external-doc.elsanow.co/
+# This client implements ELSA websocket protocol to stream audio to the unscripted API.
+
+````bash
+python3 streaming_unscripted_client.py --token <CLIENT_TOKEN> --audio_path pizza_party.wav --return_json
+````
