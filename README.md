@@ -7,3 +7,9 @@ The SpeechAce API is designed specifically to help language learners improve the
 
 
 Detailed documentation on the API is available at https://api-external-doc.elsanow.co/
+
+# Contributing
+
+You are welcome to make contributions to this repository by submitting pull requests.
+
+
